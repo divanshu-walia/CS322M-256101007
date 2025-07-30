@@ -1,0 +1,75 @@
+$date
+	Thu Jul 31 00:30:40 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module b4_equal_tb $end
+$var wire 1 ! eq $end
+$var reg 4 " A [3:0] $end
+$var reg 4 # B [3:0] $end
+$scope module equal1 $end
+$var wire 4 $ A [3:0] $end
+$var wire 4 % B [3:0] $end
+$var wire 1 ! eq $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 %
+b0 $
+b0 #
+b0 "
+1!
+$end
+#10
+0!
+b1 #
+b1 %
+#20
+b10 #
+b10 %
+b101 "
+b101 $
+#30
+1!
+b1001 #
+b1001 %
+b1001 "
+b1001 $
+#40
+0!
+b1000 #
+b1000 %
+b11 "
+b11 $
+#50
+1!
+b110 #
+b110 %
+b110 "
+b110 $
+#60
+0!
+b1000 #
+b1000 %
+b111 "
+b111 $
+#70
+1!
+b111 #
+b111 %
+#80
+0!
+b0 #
+b0 %
+b1000 "
+b1000 $
+#90

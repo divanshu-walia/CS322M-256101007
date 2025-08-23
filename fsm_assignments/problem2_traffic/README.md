@@ -32,7 +32,7 @@ This project implements a Moore finite state machine (FSM) to control traffic li
 4. Result: tick pulse every 100ns (instead of 1 second)
 
 ## State Diagram
-![Traffic Light FSM](problem2_traffic/state_diag.png)
+![Traffic Light FSM](state_diag.png)
 
 ## Moore FSM Features
 - **Outputs depend only on current state** (not inputs)
@@ -58,4 +58,4 @@ gtkwave traffic_light.vcd
 - **Both produce same FSM behavior**, just different time scales
 
 ## Simulation
-![Traffic Light Simulation](problem2_traffic/waves/traffic_waveform.png)
+![Traffic Light Simulation](waves/traffic_waveform.png)

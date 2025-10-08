@@ -32,12 +32,6 @@
 
 ## Worked Encoding Example: ANDN x5, x6, x7
 
-**Instruction**: `ANDN x5, x6, x7`  ($rd=x5$, $rs1=x6$, $rs2=x7$)
-**Operation**: $rd = rs1 \& \sim rs2$
-**Binary Opcode**: 0001011
-**funct3**: 000
-**funct7**: 0000000
-
 | Field  | Value (Decimal)           | Value (Binary) | Shifted Hex Value |
 | :---   | :---                      | :---           | :--- |
 | funct7 | 0                         | 0000000        | $0 \ll 25 \rightarrow 0\times00000000$ |
@@ -46,4 +40,5 @@
 | funct3 | 0                         | 000            | $0 \ll 12 \rightarrow 0\times00000000$ |
 | rd     | $x5 \rightarrow 5$        | 00101          | $5 \ll 7 \rightarrow 0\times00000280$ |
 | opcode | 0x0B                      | 0001011        | $0\times0000000B$ |
+
 | **Total Instruction (32-bit Hex)** |                | | $\mathbf{0\times0073028B}$ |

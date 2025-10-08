@@ -52,4 +52,4 @@ The test program uses register x28 as a checksum accumulator to confirm all 10 o
 
     Final x28 Value: 55 (0×37)
 ## 4. Output
-![Output](riscvsingle/output.png)
+![Output](/output.png)

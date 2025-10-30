@@ -49,6 +49,7 @@ The core supports 10 custom R-type instructions, all of which use the `funct7 = 
 * `ABS`
 
 ## Repository Structure
+```bash
 /riscvpipeline
    │
    ├───src
@@ -80,7 +81,7 @@ The core supports 10 custom R-type instructions, all of which use the `funct7 = 
    ├─── pipeline.vcd
    │
    ├─── sim
-
+```
 
 ## How to Run
 
@@ -116,4 +117,5 @@ This project uses [Icarus Verilog](https://github.com/steveicarus/iverilog) for 
 ## Project Visibility
 
 This project was developed under the guidance of **Dr. Satyajit Das** as part of the course **Digital Logic and Computer Architecture 
+
 IIT Guwahati**.

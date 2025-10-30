@@ -114,8 +114,10 @@ This project uses [Icarus Verilog](https://github.com/steveicarus/iverilog) for 
     gtkwave pipeline.vcd
     ```
 
-## Project Visibility
+## Info
 
-This project was developed under the guidance of **Dr. Satyajit Das** as part of the course **Digital Logic and Computer Architecture 
+This project was developed under the guidance of **Dr. Satyajit Das** as part of the course:
+**Digital Logic and Computer Architecture (CS 553)**.  
 
-IIT Guwahati**.
+**Divanshu Walia**  
+**IIT GUWAHATI**
